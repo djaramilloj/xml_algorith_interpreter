@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<newOrder>
+    <created>YYYY-MM-DDTHH:mm:SS</created>
+    <shipperReferenceNumber>string</shipperReferenceNumber>
+    <pickup>
+        <fullAddress>string</fullAddress>
+        <zipcode>string</zipcode>
+        <country>string</country>
+    </pickup>
+    <destination>
+        <fullAddress>string</fullAddress>
+        <zipcode>string</zipcode>
+        <country>string</country>
+    </destination>
+</newOrder>

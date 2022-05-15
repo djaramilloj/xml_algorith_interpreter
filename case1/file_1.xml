@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<order>
+    <!-- created should be stored in the element created in the final XML file  -->
+    <created>2021-05-19T10:24:52.466Z</created>
+    <pickup>
+        <!-- fullAddress should be stored in the element pickup -> fullAddress in the final XML file  -->
+        <fullAddress>Johan Huizingalaan 763A</fullAddress>
+        <!-- zipcode should be stored in the element pickup -> zipcode in the final XML file  -->
+        <zipcode>1066 VH</zipcode>
+        <!-- country should be stored in the element pickup -> country in the final XML file  -->
+        <country>NL</country>
+    </pickup>
+    <delivery>
+        <!-- fullAddress should be stored in the element destination -> fullAddress in the final XML file  -->
+        <fullAddress>Stationsweg 166A</fullAddress>
+        <!-- zipcode should be stored in the element destination -> zipcode in the final XML file  -->
+        <zipcode>2161 AM</zipcode>
+        <!-- country should be stored in the element destination -> country in the final XML file  -->
+        <country>NL</country>
+    </delivery>
+</order>

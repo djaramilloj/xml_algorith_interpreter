@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shipment_file>
+    <transmission_details>
+        <signarute>a50be0dc538472e5487d5cd3a34b6794</signarute>
+        <file_creation_date>31-11-2021T10:24:52.466Z</file_creation_date>
+    </transmission_details>
+    <order_data>
+        <!-- file_transmission_date should be stored in the element created in the final XML file  -->
+        <file_transmission_date>31-11-2021T10:26:00.000Z</file_transmission_date>
+        <!-- order_reference should be stored in the element shipperReferenceNumber in the final XML file  -->
+        <order_reference>10092</order_reference>
+        <route_data>
+            <!-- pickup_address should be stored in the element pickup -> fullAddress in the final XML file  -->
+            <pickup_address>Johan Huizingalaan 763A</pickup_address>
+            <!-- pickup_zipcode should be stored in the element pickup -> zipcode in the final XML file  -->
+            <pickup_zipcode>1066 VH</pickup_zipcode>
+            <!-- pickup_country should be stored in the element pickup -> country in the final XML file  -->
+            <pickup_country>NL</pickup_country>
+            <!-- delivery_address should be stored in the element destination -> fullAddress in the final XML file  -->
+            <delivery_address>Stationsweg 166A</delivery_address>
+            <!-- delivery_zipcode should be stored in the element destination -> zipcode in the final XML file  -->
+            <delivery_zipcode>2161 AM</delivery_zipcode>
+            <!-- delivery_country should be stored in the element destination -> country in the final XML file  -->
+            <delivery_country>NL</delivery_country>
+        </route_data>
+    </order_data>
+</shipment_file>

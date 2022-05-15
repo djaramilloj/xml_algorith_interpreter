@@ -1,0 +1,26 @@
+{
+  "name": "quicargo",
+  "version": "1.0.0",
+  "description": "XML files integrations",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "rm -rf bin && tsc && npm run copy",
+    "dev": "npm run build && node .",
+    "copy": "cp final-format.xml bin/final-format.xml && cp -R case1/file_1.xml bin/file_1.xml && cp -R case2/file_2.xml bin/file_2.xml && cp -R case3/file_3.xml bin/file_3.xml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.33",
+    "@types/xml2js": "^0.4.11",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
