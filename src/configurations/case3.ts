@@ -1,6 +1,6 @@
 import { ConfigurationsFormat } from "../utils/models";
 
-export const configurations: ConfigurationsFormat = {
+export const CONFIG_CASE_3: ConfigurationsFormat = {
     created: 'file_transmission_date',
     shipperReferenceNumber: 'order_reference',
     'pickup/fullAddress': 'pickup_address',
