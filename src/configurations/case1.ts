@@ -1,12 +1,13 @@
 import { ConfigurationsFormat } from "../utils/models";
 
 export const CONFIG_CASE_1: ConfigurationsFormat = {
-    created: 'created',
-    shipperReferenceNumber: '',
-    'pickup/fullAddress': 'pickup/fullAddress',
-    'pickup/zipcode': 'pickup/zipcode',
-    'pickup/country': 'pickup/country',
-    'destination/fullAddress': 'delivery/fullAddress',
-    'destination/zipcode': 'delivery/zipcode',
-    'destination/country': 'delivery/country'
+    'newOrder/created': 'order/created',
+    'newOrder/shipperReferenceNumber': '',
+    'newOrder/pickup/fullAddress': 'order/pickup/fullAddress',
+    'newOrder/pickup/zipcode': 'order/pickup/zipcode',
+    'newOrder/pickup/country': 'order/pickup/country',
+    'newOrder/destination/fullAddress': 'order/delivery/fullAddress',
+    'newOrder/destination/zipcode': 'order/delivery/zipcode',
+    'newOrder/destination/country': 'order/delivery/country',
+    dateFormat: 'YYYY-MM-DDTHH:mm:SS'
 }
