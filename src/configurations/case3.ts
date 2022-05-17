@@ -1,4 +1,4 @@
-import { ConfigurationsFormat } from "../utils/models";
+import { ConfigurationsFormat } from "../interfaceAdapters/models";
 
 export const CONFIG_CASE_3: ConfigurationsFormat = {
     'newOrder/created': 'shipment_file/order_data/file_transmission_date',

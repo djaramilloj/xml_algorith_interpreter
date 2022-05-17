@@ -44,7 +44,7 @@ rl.question('Type the test case to execute -> 1, 2 or 3 (Just type the number): 
       parseService = new ParseFile(xml1, template, CONFIG_CASE_1)
       parseService.getResult()
   }
-  console.log('File created in path -> ./bin/results')
+  console.log('RESULT File created in path -> ./bin/results')
   rl.close()
 })
 

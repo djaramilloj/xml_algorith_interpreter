@@ -5,9 +5,10 @@
   "main": "bin/index.js",
   "scripts": {
     "build": "rm -rf bin && tsc && npm run copy",
-    "dev": "npm run build && node .",
+    "start": "npm run build && node .",
     "copy": "cp final-format.xml bin/final-format.xml && cp -R case1/file_1.xml bin/file_1.xml && cp -R case2/file_2.xml bin/file_2.xml && cp -R case3/file_3.xml bin/file_3.xml && mkdir bin/results",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:prod:delete": "rm -rf bin/__test__",
+    "test": "npm run test:prod:delete && jest --collectCoverage"
   },
   "author": "",
   "license": "ISC",
